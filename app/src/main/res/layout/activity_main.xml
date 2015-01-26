@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Name_Default"
+    android:textSize="30sp" />
+    
+    <EditText
+    android:id="@+id/txtName"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/hintName"
+    android:textSize="40sp" />
+    
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Grade_Default"
+    android:textSize="30sp" />
+    
+    <EditText
+    android:id="@+id/txtGrade"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/hintGrade"
+    android:textSize="40sp" />
+    
+    <Button
+    android:id="@+id/btnAdd"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="onClickAddName"
+    android:text="@string/add_name"
+    android:textSize="40sp" />
+    
+    <Button
+    android:id="@+id/btnRetrieve"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="onClickRetrieveStudents"
+    android:text="@string/get_names"
+    android:textSize="40sp" />
+    
+</LinearLayout>
